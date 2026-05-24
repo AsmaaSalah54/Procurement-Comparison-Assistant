@@ -1,0 +1,7 @@
+streamlit
+pandas
+pdfplumber
+langchain-openai
+python-docx
+openpyxl
+tiktoken
