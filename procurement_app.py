@@ -28,14 +28,14 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
     border-radius: 16px; padding: 36px 40px; margin-bottom: 28px;
     color: white; box-shadow: 0 8px 32px rgba(37,99,235,0.18);
 }
-.hero-header h1 { font-size: 2.5rem; font-weight: 700; margin: 0 0 6px; }
-.hero-header p  { font-size: 1.5rem; opacity: 0.85; margin: 0; }
+.hero-header h1 { font-size: 2rem; font-weight: 700; margin: 0 0 6px; }
+.hero-header p  { font-size: 1rem; opacity: 0.85; margin: 0; }
 .step-indicator {
     display: flex; align-items: center; gap: 10px;
     background: white; border-radius: 10px;
     padding: 14px 18px; margin-bottom: 14px;
     box-shadow: 0 1px 6px rgba(0,0,0,0.06);
-    font-size: 1.5rem; color: #334155;
+    font-size: .9rem; color: #334155;
 }
 .step-num {
     background: #2563eb; color: white; border-radius: 50%;
@@ -46,36 +46,36 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
     background: white; border-radius: 12px; padding: 18px 20px;
     text-align: center; box-shadow: 0 1px 8px rgba(0,0,0,0.07);
 }
-.metric-num { font-size: 2.5rem; font-weight: 700; color: #1e3a5f; }
-.metric-lbl { font-size: 1.5rem; color: #64748b; text-transform: uppercase;
+.metric-num { font-size: 2rem; font-weight: 700; color: #1e3a5f; }
+.metric-lbl { font-size: .78rem; color: #64748b; text-transform: uppercase;
               letter-spacing: .05em; margin-top: 2px; }
 .badge-identical { background:#dcfce7; color:#166534; padding:4px 14px;
-    border-radius:999px; font-size:1.3rem; font-weight:600; display:inline-block; }
+    border-radius:999px; font-size:.78rem; font-weight:600; display:inline-block; }
 .badge-diff      { background:#fef3c7; color:#92400e; padding:4px 14px;
-    border-radius:999px; font-size:1.3rem; font-weight:600; display:inline-block; }
+    border-radius:999px; font-size:.78rem; font-weight:600; display:inline-block; }
 .badge-missing   { background:#fee2e2; color:#991b1b; padding:4px 14px;
-    border-radius:999px; font-size:1.3rem; font-weight:600; display:inline-block; }
+    border-radius:999px; font-size:.78rem; font-weight:600; display:inline-block; }
 .diff-row {
     background:#fffbeb; border-left:4px solid #f59e0b;
     border-radius:0 8px 8px 0; padding:14px 18px; margin:10px 0;
 }
-.diff-label { font-weight:600; font-size:1rem; color:#78350f; margin-bottom:4px; }
-.diff-val   { font-size:1rem; color:#451a03; }
+.diff-label { font-weight:600; font-size:.82rem; color:#78350f; margin-bottom:4px; }
+.diff-val   { font-size:.88rem; color:#451a03; }
 .ok-row {
     background:#f0fdf4; border-left:4px solid #22c55e;
     border-radius:0 8px 8px 0; padding:10px 18px; margin:8px 0;
-    font-size:1.3rem; color:#14532d;
+    font-size:.88rem; color:#14532d;
 }
 .summary-box {
     background:linear-gradient(135deg,#eff6ff,#dbeafe);
     border:1px solid #bfdbfe; border-radius:12px; padding:22px 26px; margin-bottom:22px;
 }
-.summary-box h3 { color:#1d4ed8; margin:0 0 10px; font-size:1.3rem; }
+.summary-box h3 { color:#1d4ed8; margin:0 0 10px; font-size:1rem; }
 .stButton > button {
     background: linear-gradient(135deg, #1e3a5f, #2563eb) !important;
     color: white !important; border: none !important;
     border-radius: 10px !important; padding: 12px 32px !important;
-    font-weight: 600 !important; font-size: 1.3rem !important;
+    font-weight: 600 !important; font-size: 1rem !important;
     width: 100%; transition: opacity .2s !important;
 }
 .stButton > button:hover { opacity: .88 !important; }
